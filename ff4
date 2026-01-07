@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Fire Login Test</title>
+<style>
+    /* Full-page background */
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: 'Arial', sans-serif;
+        background: url('https://i.ibb.co/NrGxQ5h/freefire-bg.jpg') no-repeat center center/cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Login container */
+    .login-box {
+        background: rgba(0,0,0,0.7);
+        padding: 40px;
+        border-radius: 10px;
+        text-align: center;
+        width: 300px;
+        color: #fff;
+        box-shadow: 0 0 20px #ffcc00;
+    }
+
+    .login-box img {
+        width: 120px;
+        margin-bottom: 20px;
+    }
+
+    .login-box h1 {
+        margin-bottom: 30px;
+        font-family: 'Impact', sans-serif;
+        color: #ffcc00;
+        font-size: 28px;
+    }
+
+    /* Input fields */
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    /* Login button */
+    .login-box button {
+        width: 100%;
+        padding: 12px;
+        background: #ffcc00;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        color: #000;
+        transition: 0.3s;
+    }
+
+    .login-box button:hover {
+        background: #ffaa00;
+    }
+
+    /* Responsive */
+    @media (max-width: 400px) {
+        .login-box {
+            width: 90%;
+            padding: 20px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="login-box">
+    <img src="https://i.ibb.co/6mMZshT/freefire-logo.png" alt="Free Fire Logo">
+    <h1>Login</h1>
+    <input type="text" placeholder="Username or Email">
+    <input type="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+</div>
+
+<script>
+function login() {
+    alert('This is just a test login!');
+}
+</script>
+
+</body>
+</html>
